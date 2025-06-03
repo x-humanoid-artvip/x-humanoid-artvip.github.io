@@ -280,8 +280,8 @@
 
                 <h3 class="title is-4">Physical Fidelity and Interaction Evaluation</h3>
                 <div class="content has-text-justified">
-                    <p>We employed an optical tracking system to record motion trajectories of joints on real-world
-                        objects. These recordings were compared with the joint motions of their corresponding
+                    <p>We employ an optical tracking system to record motion trajectories of joints on real-world
+                        objects. These recordings are compared with the joint motions of their corresponding
                         digital-twin articulated objects in simulation to evaluate the discrepancy between simulated and
                         real-world joint behavior. We break the
                         sim-to-real barrier and present a straightforward comparison in the following videos. More
@@ -307,6 +307,41 @@
                         </video>
                     </div>
                 </div>
+
+
+                <h3 class="title is-4">Imitation Learning in Real World</h3>
+                <div class="content has-text-justified">
+                    <p>We design four challenging articulated-object manipulation tasks: (1) PullDrawer, (2)
+                        OpenCabinet, (3) SlideShelf, and (4) CloseOven. These tasks demand precise and flexible motions,
+                        including rotation, angled pushing, and horizontal translation. We prove that Real-Sim-Mixed
+                        data can significantly improve the success rates.</p>
+                </div>
+                <div class="columns is-vcentered interpolation-panel">
+                    <div class="column  has-text-centered">
+                        <h5><b> PullDrawer</b></h5>
+                        <video autoplay controls muted loop playsinline width="90%">
+                            <source src="static/videos/drawer.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="column  has-text-centered">
+                        <h5><b> OpenCabinet</b></h5>
+                        <video autoplay controls muted loop playsinline width="90%">
+                            <source src="static/videos/cabinet.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="column  has-text-centered">
+                        <h5><b> SlideShelf </b></h5>
+                        <video autoplay controls muted loop playsinline width="90%">
+                            <source src="static/videos/slideshelf.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="column  has-text-centered">
+                        <h5><b> CloseOven </b></h5>
+                        <video autoplay controls muted loop playsinline width="90%">
+                            <source src="static/videos/oven.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -315,9 +350,9 @@
 <footer class="footer">
     <div class="container">
         <div class="content has-text-centered">
-<!--            <a class="icon-link" href="https://arxiv.org/abs/2412.13877">-->
-<!--                <i class="fas fa-file-pdf"></i>-->
-<!--            </a>-->
+            <!--            <a class="icon-link" href="https://arxiv.org/abs/2412.13877">-->
+            <!--                <i class="fas fa-file-pdf"></i>-->
+            <!--            </a>-->
             <!-- <a class="icon-link" href="https://x-humanoid-robomind.github.io/" class="external-link" disabled>
   <i class="fab fa-github"></i>
   </a> -->
