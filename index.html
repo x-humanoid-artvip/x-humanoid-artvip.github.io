@@ -12,7 +12,8 @@
     />
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
     <title>
-        ArtVIP: Articulated Digital Assets of Visual Realism, Modular Interaction, and Physical Fidelity for Robot Learning
+        ArtVIP: Articulated Digital Assets of Visual Realism, Modular Interaction, and Physical Fidelity for Robot
+        Learning
     </title>
 
     <script>
@@ -29,7 +30,7 @@
     <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
     <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
     <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">-->
+    <!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">-->
     <link rel="stylesheet" href="./static/css/index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -271,14 +272,52 @@
     </div>
 </section>
 
+<section class="section">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered">
+            <div class="column is-full-width">
+                <h2 class="title is-3">Experiments</h2>
 
+                <h3 class="title is-4">Physical Fidelity and Interaction Evaluation</h3>
+                <div class="content has-text-justified">
+                    <p>We employed an optical tracking system to record motion trajectories of joints on real-world
+                        objects. These recordings were compared with the joint motions of their corresponding
+                        digital-twin articulated objects in simulation to evaluate the discrepancy between simulated and
+                        real-world joint behavior. We break the
+                        sim-to-real barrier and present a straightforward comparison in the following videos. More
+                        analysis is provided in the research paper.</p>
+                </div>
+                <div class="columns is-vcentered interpolation-panel">
+                    <div class="column  has-text-centered">
+                        <h5><b> Motion Driven by External Force</b></h5>
+                        <video autoplay controls muted loop playsinline width="90%">
+                            <source src="static/videos/video1_drawer.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="column  has-text-centered">
+                        <h5><b> Motion Triggered by Latch Release</b></h5>
+                        <video autoplay controls muted loop playsinline width="90%">
+                            <source src="static/videos/video2_mirco_oven.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="column  has-text-centered">
+                        <h5><b> Motion Triggered by Joint Position Threshold </b></h5>
+                        <video autoplay controls muted loop playsinline width="90%">
+                            <source src="static/videos/video3_oven.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <footer class="footer">
     <div class="container">
         <div class="content has-text-centered">
-            <a class="icon-link" href="https://arxiv.org/abs/2412.13877">
-                <i class="fas fa-file-pdf"></i>
-            </a>
+<!--            <a class="icon-link" href="https://arxiv.org/abs/2412.13877">-->
+<!--                <i class="fas fa-file-pdf"></i>-->
+<!--            </a>-->
             <!-- <a class="icon-link" href="https://x-humanoid-robomind.github.io/" class="external-link" disabled>
   <i class="fab fa-github"></i>
   </a> -->
