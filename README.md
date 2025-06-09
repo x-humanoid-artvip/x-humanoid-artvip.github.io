@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Project Page](https://img.shields.io/badge/Project%20Page-ArtVIP-blue.svg)](https://x-humanoid-artvip.github.io/)
-[![arXiv](https://badgen.net/badge/icon/arXiv?icon=awesome&label&color=red&style=flat-square)]()
+[![arXiv](https://badgen.net/badge/icon/arXiv?icon=awesome&label&color=red&style=flat-square)](https://arxiv.org/abs/2506.04941)
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-ArtVIP-000000.svg)](https://huggingface.co/datasets/x-humanoid-robomind/ArtVIP)
 
 ## Key Features
