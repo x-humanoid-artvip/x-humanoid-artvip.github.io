@@ -5,7 +5,21 @@
 [![arXiv](https://badgen.net/badge/icon/arXiv?icon=awesome&label&color=red&style=flat-square)](https://arxiv.org/abs/2506.04941)
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-ArtVIP-000000.svg)](https://huggingface.co/datasets/x-humanoid-robomind/ArtVIP)
 
-> 🚀 **Note:** For the full dataset description, usage instructions, and downloads, please visit our [Hugging Face repository](https://huggingface.co/datasets/x-humanoid-robomind/ArtVIP/blob/main/README.md).
+> 🚀 **Note**  
+> For the full dataset description, usage instructions, and downloads, please visit our 👉 [**Hugging Face repository**](https://huggingface.co/datasets/x-humanoid-robomind/ArtVIP/blob/main/README.md).
+
+## Version History
+
+| Version | Release Date | Description                                                                 | Highlights                                                                                                                                                                |
+|---------|--------------|-----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| v1.1    | 2024-08      |  Optimized the details of interactive scenes.                                       | ✅ Modify interactive scene joint drive configuration<br>✅Optimize collision volume decomposition within interactive scenes <br> ✅Including 48 modular interactive objects |
+| v1.0    | 2024-06      | Initial release of ArtVIP dataset                                           | ✅ 206 articulated objects<br>✅ 6 pre-configured scenes<br>✅ 6 user-defined scenes<br>                                                                                     |
+
+### 🔮 Next Steps
+
+- ⚡ Adapt dynamics to **Isaac Sim 5.0**
+- 🛠️ Ensure repository maintenance for **at least 2 years**
+
 
 ## Key Features
 
