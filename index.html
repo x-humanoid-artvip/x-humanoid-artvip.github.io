@@ -59,6 +59,7 @@
                         ArtVIP: Articulated Digital Assets of Visual Realism, Modular
                         Interaction, and Physical Fidelity for Robot Learning
                     </h1>
+                    <p class="subtitle is-4 has-text-weight-semibold">🎉 Accepted by ICLR 2026</p>
                     <div class="is-size-5 publication-authors">
                 <span class="team-name">
                   <b>
@@ -192,7 +193,7 @@
                             href="https://huggingface.co/datasets/x-humanoid-robomind/ArtVIP"
                     >
                       <span class="icon"><i class="fas fa-database"></i></span>
-                      <span>Huggingface</span>
+                      <span>Hugging Face</span>
                     </a>
                   </span>
 
@@ -204,7 +205,7 @@
                       <span class="icon">
                         <i class="fab fa-github"></i>
                       </span>
-                      <span>Github</span>
+                      <span>GitHub</span>
                     </a>
                   </span>
                         </div>
@@ -223,10 +224,10 @@
             </video>
 
             <h2 class="subtitle has-text-centered">
-                We introduce <strong>ArtVIP</strong>, a comprehensive open-source dataset comprising 200+ high-quality
+                We introduce <strong>ArtVIP</strong>, a comprehensive open-source dataset comprising 900+ high-quality
                 digital-twin articulated objects and 6 digital-twin scenes.
-                ArtVIP ensures visual realism through precise geometric meshes and high-resolution textures, and
-                physical fidelity is achieved via fine-tuned parameters.
+                ArtVIP delivers visual realism via precise geometric meshes and high-resolution textures, while
+                physical fidelity comes from carefully tuned parameters.
             </h2>
         </div>
     </div>
@@ -236,37 +237,44 @@
     <div class="hero-body">
         <div class="container">
             <div id="results-carousel" class="carousel results-carousel">
-                <div class="item item-steve has-text-centered">
-                    <video poster="" id="steve video" autoplay controls muted loop playsinline height="300"
+                <div class="item item-1 has-text-centered">
+                    <video poster="" id="video-1" autoplay controls muted loop playsinline height="300"
                            style="object-fit: cover">
                         <source src="static/videos/Franka_720p.mp4" type="video/mp4">
                     </video>
                     <p id="overlay01">01_Franka</p>
                 </div>
-                <div class="item item-fullbody has-text-centered">
-                    <video poster="" id="fullbody video" autoplay controls muted loop playsinline height="300"
+                <div class="item item-2 has-text-centered">
+                    <video poster="" id="video-2" autoplay controls muted loop playsinline height="300"
                            style="object-fit: cover">
                         <source src="static/videos/officechair.mp4" type="video/mp4">
                     </video>
                     <p id="overlay02">02_office_chair</p>
                 </div>
-                <div class="item item-fullbody has-text-centered">
-                    <video poster="" id="sim1 video" autoplay controls muted loop playsinline height="300"
+                <div class="item item-3 has-text-centered">
+                    <video poster="" id="video-3" autoplay controls muted loop playsinline height="300"
                            style="object-fit: cover">
-                        <source src="static/videos/kitchen_light_on_720.mp4" type="video/mp4">
+                        <source src="static/videos/Trigger_Interactions_table.mp4" type="video/mp4">
                     </video>
-                    <p id="overlay03">03_light</p>
+                    <p id="overlay03">03_table</p>
                 </div>
-                <div class="item item-chair-tp has-text-centered">
-                    <video poster="" id="chair-tp video" autoplay controls muted loop playsinline height="300"
+                 <div class="item item-4 has-text-centered">
+                    <video poster="" id="video-4" autoplay controls muted loop playsinline height="300"
                            style="object-fit: cover">
-                        <source src="static/videos/kitchen_open_door_720p.mp4" type="video/mp4">
+                        <source src="static/videos/Trigger_Interactions_trash_can.mp4" type="video/mp4">
                     </video>
-                    <p id="overlay04">04_door</p>
+                    <p id="overlay04">04_trash</p>
+                </div>
+                <div class="item item-5 has-text-centered">
+                    <video poster="" id="video-5" autoplay controls muted loop playsinline height="300"
+                           style="object-fit: cover">
+                        <source src="static/videos/kitchen-open.mp4" type="video/mp4">
+                    </video>
+                    <p id="overlay05">05_door</p>
                 </div>
             </div>
             <br>
-            <p class="has-text-centered">Interaction with ArtVIP assets</p>
+            <p class="has-text-centered">Interaction with ArtVIP assets, please visit <a href="https://huggingface.co/datasets/x-humanoid-robomind/ArtVIP" target="_blank" rel="noopener noreferrer">Hugging Face</a> for more details.</p>
         </div>
     </div>
 </section>
@@ -312,32 +320,45 @@
                 <div class="content has-text-justified">
                     <p>We design four challenging articulated-object manipulation tasks: (1) PullDrawer, (2)
                         OpenCabinet, (3) SlideShelf, and (4) CloseOven. These tasks demand precise and flexible motions,
-                        including rotation, angled pushing, and horizontal translation. We prove that Real-Sim-Mixed
+                        including rotation, angled pushing, and horizontal translation. Data was collected via teleoperation in both real and simulated environments. For each experiment, we trained ACT and DP for 50k gradient descent iterations with three different random seeds, and evaluated the final checkpoint from each run with 60 rollouts to compute per-task success rates. We prove that Real-Sim-Mixed
                         data can significantly improve the success rates.</p>
                 </div>
-                <div class="columns is-vcentered interpolation-panel">
-                    <div class="column  has-text-centered">
+                <div class="columns is-vcentered is-multiline interpolation-panel">
+                    <div class="column is-12-mobile is-6-tablet has-text-centered">
                         <h5><b> PullDrawer</b></h5>
                         <video autoplay controls muted loop playsinline width="90%">
                             <source src="static/videos/drawer.mp4" type="video/mp4">
                         </video>
                     </div>
-                    <div class="column  has-text-centered">
+                    <div class="column is-12-mobile is-6-tablet has-text-centered">
                         <h5><b> OpenCabinet</b></h5>
                         <video autoplay controls muted loop playsinline width="90%">
                             <source src="static/videos/cabinet.mp4" type="video/mp4">
                         </video>
                     </div>
-                    <div class="column  has-text-centered">
+                    <div class="column is-12-mobile is-6-tablet has-text-centered">
                         <h5><b> SlideShelf </b></h5>
                         <video autoplay controls muted loop playsinline width="90%">
                             <source src="static/videos/slideshelf.mp4" type="video/mp4">
                         </video>
                     </div>
-                    <div class="column  has-text-centered">
+                    <div class="column is-12-mobile is-6-tablet has-text-centered">
                         <h5><b> CloseOven </b></h5>
                         <video autoplay controls muted loop playsinline width="90%">
                             <source src="static/videos/oven.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+
+                <h3 class="title is-4">Reinforcement Learning in Real World</h3>
+                <div class="content has-text-justified">
+                    <p>We design a CloseTrashcan task with a Franka arm and train a two-stage agent in Isaac Sim. Then we deploy the same policy in the real world.</p>
+                </div>
+                <div class="columns is-vcentered is-multiline is-centered interpolation-panel">
+                    <div class="column is-12-mobile is-6-tablet has-text-centered">
+                        <h5><b> CloseTrashcan </b></h5>
+                        <video autoplay controls muted loop playsinline width="90%">
+                            <source src="static/videos/RL.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>
@@ -346,32 +367,23 @@
     </div>
 </section>
 
-<footer class="footer">
-    <div class="container">
-        <div class="content has-text-centered">
-            <!--            <a class="icon-link" href="https://arxiv.org/abs/2412.13877">-->
-            <!--                <i class="fas fa-file-pdf"></i>-->
-            <!--            </a>-->
-            <!-- <a class="icon-link" href="https://x-humanoid-robomind.github.io/" class="external-link" disabled>
-  <i class="fab fa-github"></i>
-  </a> -->
-        </div>
+<section class="section">
+    <div class="container is-max-desktop">
         <div class="columns is-centered">
-            <div class="column is-8">
-                <div class="content has-text-centered">
-                    <p>
-                        The website template was borrowed from
-                        <a href="https://github.com/nerfies/nerfies.github.io"
-                        >NeRFies</a
-                        >
-                        and
-                        <a href="https://eureka-research.github.io/">Eureka</a>
-                        .
-                    </p>
+            <div class="column is-full-width">
+                <h2 class="title is-3">BibTeX</h2>
+                <div class="content">
+                    <pre><code>@inproceedings{jin2026artvip, 
+   title={ArtVIP: Articulated Digital Assets of Visual Realism, Modular Interaction, and Physical Fidelity for Robot Learning}, 
+   author={Zhao Jin and Zhengping Che and Tao Li and Zhen Zhao and Kun Wu and Yuheng Zhang and others}, 
+   booktitle={International Conference on Learning Representations (ICLR)}, 
+   year={2026} 
+ }</code></pre>
                 </div>
             </div>
         </div>
     </div>
-</footer>
+</section>
+
 </body>
 </html>
