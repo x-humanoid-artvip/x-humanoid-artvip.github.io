@@ -5,6 +5,10 @@
 [![arXiv](https://badgen.net/badge/icon/arXiv?icon=awesome&label&color=red&style=flat-square)](https://arxiv.org/abs/2506.04941)
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-ArtVIP-000000.svg)](https://huggingface.co/datasets/x-humanoid-robomind/ArtVIP)
 
+
+### 🎉🎉🎉 ArtVIP is accepted by ICLR 2026
+---
+
 > 🚀 **Note**  
 > For the full dataset description, usage instructions, and downloads, please visit our 👉 [**Hugging Face repository**](https://huggingface.co/datasets/x-humanoid-robomind/ArtVIP/blob/main/README.md).
 
@@ -97,3 +101,16 @@ If you're interested in **ArtVIP**, welcome to join our [Discord](https://discor
 Please scan the WeChat QR code below:
 
 <img src="./static/images/wechat_qrcode.jpg" alt="WeChat QR Code" width="100"/>
+
+
+---
+## BibTeX
+
+```bibtex
+@inproceedings{jin2026artvip,
+  title={ArtVIP: Articulated Digital Assets of Visual Realism, Modular Interaction, and Physical Fidelity for Robot Learning},
+  author={Zhao Jin and Zhengping Che and Tao Li and Zhen Zhao and Kun Wu and Yuheng Zhang and others},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2026}
+}
+```
