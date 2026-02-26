@@ -16,8 +16,8 @@
 
 | Version | Release Date | Description                                                                 | Highlights                                                                                                                                                                |
 |---------|--------------|-----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| v1.1    | 2024-08      |  Optimized the details of interactive scenes.                                       | ✅ Modify interactive scene joint drive configuration<br>✅Optimize collision volume decomposition within interactive scenes <br> ✅Including 48 modular interactive objects |
-| v1.0    | 2024-06      | Initial release of ArtVIP dataset                                           | ✅ 206 articulated objects<br>✅ 6 pre-configured scenes<br>✅ 6 user-defined scenes<br>                                                                                     |
+| v1.1    | 2025-08      |  Optimized the details of interactive scenes.                                       | ✅ Modify interactive scene joint drive configuration<br>✅Optimize collision volume decomposition within interactive scenes <br> ✅Including 48 modular interactive objects |
+| v1.0    | 2025-06      | Initial release of ArtVIP dataset                                           | ✅ 206 articulated objects<br>✅ 6 pre-configured scenes<br>✅ 6 user-defined scenes<br>                                                                                     |
 
 ### 🔮 Next Steps
 
